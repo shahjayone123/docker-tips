@@ -78,4 +78,4 @@ docker rm $(docker ps -a -q)
 docker rmi <image-id>
 
 # remove all images
-docker rmi $(docker images -q)
+docker rmi $(docker images -q)[will not delete the multiple images with same id's: means all the images should have different id's]
